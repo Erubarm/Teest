@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+<meta charset="UTF-8">
+<title>спорт-бар</title>
+
+<link rel="stylesheet" href="./style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="./script.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <div class = 'cont'>
+            <nav>
+                <ul>
+                  <a href="#c1">Главная</a>
+                  <a href="#c2">Прайс-лист</a>
+                  <a href="#c5">Меню</a>
+                  <a href="#c3">Расписание матчей</a>
+                  <a href="#c7">Бронировать</a>
+                  <a href="#c4">Контакты</a>
+                  <a href="#c6">Отзывы</a>
+                  
+                  
+                  <a class = 'mail'>lgi_tver@mail.ru</a>
+                  
+                </ul>
+              </nav>
+        </div>
+      
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h1>SPORT BAR</h1>
+       
+        <div class = 'cont2'>
+          <p class="text-flicker">Бронируй! Количество столов ограничено </p>
+        </div>
+      </header>
+      
+      <section class="intro">
+        <h2>Добро пожаловать в Sport Bar!</h2>
+        <p class = 'ppp'>Самые яркие спортивные события и отличная атмосфера ждут вас у нас. Заходите!</p>
+      
+    <center>
+      
+    <div id="gallery">
+        <ul id="sets"></ul>
+        <div id="loading"></div>
+        <img id="photo" src="./images/pic15.jpg"  width="650" height="450" style="border-radius: 5px;"/>
+        <ul id="thumbs">
+        </ul>
+       
+    
+    </div><br><br><br><br><br><br><br>
+
+    <div class = "cont4" id = 'c2'>
+      
+      <h4 >Прайс-лист</h4>
+      <p class = 'ttt'>Боулинг.........................................................2500р/час</p>
+      <p class = 'ttt'>Бильярд.........................................................3000р/час</p>
+      <p class = 'ttt'>Настольный футбол......................................1500р/час</p>
+      <p class = 'ttt'>Аэрохоккей.....................................................500р/час</p>
+
+    </div><br><br><br><br><br>
+
+    
+      
+      <h4 id = 'c3'>Расписание матчей</h4>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 12</div>
+          <p style="width:600px;height: 600px; border-radius: 20px; background-color: rgba(38, 38, 38, 0.799);"></p>
+          <div class="text">Баскетбол<br> Лейкерс / Чикаго Булс<br>24.06.24 - 18:00</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 12</div>
+          <p style="width:600px;height: 600px; border-radius: 20px; background-color: rgba(38, 38, 38, 0.799);"></p>
+          <div class="text">Футбол <br>Реал Мадрид / ФК Барселона<br>29.06.24 - 19:00</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 12</div>
+          <p style="width:600px;height: 600px; border-radius: 20px; background-color: rgba(38, 38, 38, 0.799);"></p>
+          <div class="text">Волейбол <br>Динамо Москва / Зенит<br>18.06.24 - 20:00</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 12</div>
+            <p style="width:600px;height: 600px; border-radius: 20px; background-color: rgba(38, 38, 38, 0.799);"></p>
+            <div class="text">Хоккей <br>Зенит/ Локомотив<br>21.06.24 - 20:00</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 12</div>
+            <p style="width:600px;height: 600px; border-radius: 20px; background-color: rgba(38, 38, 38, 0.799);"></p>
+            <div class="text">Баскетбол <br>Майами Хит / Бостон Селтикс<br>25.06.24 - 18:00</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 12</div>
+            <p style="width:600px;height: 600px; border-radius: 20px; background-color: rgba(38, 38, 38, 0.799);"></p>
+            <div class="text">Футбол <br>Спартак / Динамо<br>29.07.24 - 19:00</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 12</div>
+            <p style="width:600px;height: 600px; border-radius: 20px; background-color: rgba(38, 38, 38, 0.799);"></p>
+            <div class="text">Волейбол <br>Белогорье / Зенит<br>09.07.24 - 20:00</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 12</div>
+            <p style="width:600px;height: 600px; border-radius: 20px; background-color: rgba(38, 38, 38, 0.799);"></p>
+            <div class="text">Хоккей <br>Зенит/ Локомотив<br>22.06.24 - 20:00</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">9 / 12</div>
+            <p style="width:600px;height: 600px; border-radius: 20px; background-color: rgba(38, 38, 38, 0.799);"></p>
+            <div class="text">Баскетбол <br>Сан-Антонио Спёрс / Филадельфия Сиксерс<br>01.07.24 - 18:00</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">10 / 12</div>
+            <p style="width:600px;height: 600px; border-radius: 20px; background-color: rgba(38, 38, 38, 0.799);"></p>
+            <div class="text">Футбол <br>Факел / ЦСКА<br>08.07.24 - 19:00</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">11 / 12</div>
+            <p style="width:600px;height: 600px; border-radius: 20px; background-color: rgba(38, 38, 38, 0.799);"></p>
+            <div class="text">Волейбол <br>Динамо / Уралочка-НТМК<br>20.07.24 - 20:00</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">12 / 12</div>
+            <p style="width:600px;height: 600px; border-radius: 20px; background-color: rgba(38, 38, 38, 0.799);"></p>
+            <div class="text">Хоккей <br>Авангард/ СКА<br>13.06.24 - 20:00</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+
+  
+   
+
+    <br><br><br>
+
+
+    <section class = 'list'>
+      
+
+      <div class = 'menu' id = 'c5' >
+        <p class = 'menu-text'>Меню</p>
+
+        <div class = 'menu1'>
+          <div class = 'tea' style="border: 2px solid #b66d07; border-radius: 20px; margin-left: 550px; background-color:rgba(248, 246, 246, 0.525)">
+            <p class = 'price'>Чай листовой</p>
+            <img src = './images/tea.jpg ' style="width: 180px; height: 180px; border: 2 px solid #000000c0; border-radius: 20px;">
+            <p class = 'price'>250р/200мл</p>
+          </div>
+  
+          <div class = 'cofe' style="border: 2px solid #b66d07; border-radius: 20px; width: 200px ;
+      height: 300px; margin-left: 40px; background-color: rgba(248, 246, 246, 0.525)">
+            <p class = 'price'>Кофе зерновой</p>
+            <img src = './images/cofe.jpg'style="width: 180px; height: 180px; border: 2 px solid #000000c0; border-radius: 20px; background-color: rgb(216, 215, 215)">
+            <p class = 'price'>300р/200мл</p>
+          </div>
+  
+          <div class = 'limonad' style="border: 2px solid #b66d07; border-radius: 20px; width: 200px;
+      height: 300px; margin-left: 40px; background-color: rgba(248, 246, 246, 0.525)">
+            <p class = 'price'>Напитки</p>
+            <img src = './images/limonad.jpg' style="width: 180px; height: 180px; border: 2 px solid #000000c0; border-radius: 20px; background-color:rgba(248, 246, 246, 0.525)">
+            <p class = 'price'>250р/200мл</p>
+          </div>
+        </div>
+<br><br><br><br>
+
+        <div class = 'menu2'>
+          <div class = 'zakus' style="border: 2px solid#b66d07; border-radius: 20px; width: 200px; margin-left: 550px;;
+          height: 300px; background-color: rgba(248, 246, 246, 0.525)">
+                <p class = 'price'>Закуски</p>
+                <img src = './images/salate.jpg' style="width: 180px; height: 180px; border: 2 px solid #000000c0; border-radius: 20px; background-color: rgb(216, 215, 215)">
+                <p class = 'price'>от 1000р</p>
+              </div>
+      
+              <div class = 'sneki' style="border: 2px solid #b66d07; border-radius: 20px; width: 200px;
+          height: 300px; margin-left: 40px; background-color: rgba(248, 246, 246, 0.525)">
+                <p class = 'price'>Снеки</p>
+                <img src = './images/sneki.jpg' style="width: 180px; height: 180px; border: 2 px solid #000000c0; border-radius: 20px; background-color: rgb(216, 215, 215)">
+                <p class = 'price'>от 300р</p>
+              </div>
+      
+              <div class = 'pizza' style="border: 2px solid#b66d07; border-radius: 20px; width: 200px;
+          height: 300px; margin-left: 40px;background-color: rgba(248, 246, 246, 0.525)">
+                <p class = 'price'>Пицца</p>
+                <img src = './images/pizza.jpg' style="width: 180px; height: 180px; border: 2 px solid #000000c0; border-radius: 20px; background-color: rgb(216, 215, 215)">
+                <p class = 'price'>от 600р</p>
+              </div>
+        </div>
+      </div>
+    </section>
+    <br><br><br><br>
+    <div class = "cont3" id = 'c7'>
+      <h4 >Бронь стола</h4>
+      
+      Имя <br><input type="text" id = "name" style="height: 25px; width: 500px;"><br><br>
+      Дата <br><input type = "date" id='date' style="height: 25px; width: 500px;"><br><br>Время<br><input type = "time" id="time" style="height: 25px; width: 500px;"><br><br>
+      Количество людей <br> <input type = "number" id = 'num' style="height: 25px; width: 500px;"><br><br>
+      Номер телефона <br><input type = "number" id='phone' style="height: 25px; width: 500px;"><br><br>
+      
+      <input type = "button" id  =' button' value = "Забронировать" style="height: 50px; width: 500px; background-color: #b66d07; color: rgb(255, 255, 255); "onclick = "post_reservation()"/>
+      <br><br><br><br><br><br>
+    </div>
+    <br><br><br><br><br><br><br>
+
+    <div class = 'cont6'><br>
+      <h3 id = 'c4'>Можете найти нас здесь!</h3>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Acfdbc0ca8b2340d6726ecf2a8813f1f20f0bdaab201dc0775b76a3ba4b96730b&amp;source=constructor" width="100%" height="450"  frameborder="0"></iframe>
+    </div>
+    <br><br><br><br><br><br><br>
+    
+
+    </center>
+   
+</section>
+<footer>
+ <p >Будем рады видеть вас у нас! <br><br>    Телефон для связи  +79001234567</p>
+</footer>
+</body>
+</html>

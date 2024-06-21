@@ -1,0 +1,697 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-image:  linear-gradient(90deg, rgba(255, 255, 255, 0.867) 1%, rgba(255, 255, 255, 0.808) 31%, rgb(255, 255, 255) 53%, rgba(255, 255, 255, 0.895) 99%), url(./images/fon5.png);
+}
+
+.cont {
+  background-color: #e70909;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cont2 {
+  background-color: #0000009c;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  margin-top: px;
+
+
+}
+
+.cont3 {
+  background-color: rgba(248, 246, 246, 0.753);
+  width: 800px;
+  flex-direction: column;
+  color: #35322cf0;
+  border-radius: 0px;
+
+  border: 2px solid#000000;
+
+
+}
+
+.cont4 {
+  background-color: rgba(248, 246, 246, 0.525);
+  width: 1000px;
+  flex-direction: column;
+  height: 400px;
+  border-radius: 0px;
+  margin-top: -50px;
+  border: 2px solid #000000;
+
+
+}
+
+.cont5 {
+  background-color: rgba(248, 246, 246, 0.525);
+  width: 800px;
+  flex-direction: column;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: -45px;
+
+  border: 2px solid #000000f6;
+  -moz-box-shadow: 0 0 10px#000000;
+  -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
+  box-shadow: 0 0 10px#000000;
+
+}
+
+.cont6 {
+  background-color: rgba(248, 246, 246, 0);
+  width: 100%;
+  flex-direction: column;
+  height: 400px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: -50px;
+}
+
+.kontact {
+  text-align: left;
+  margin-left: 330px;
+  margin-right: 200px;
+}
+
+
+.kontact2 {
+  text-align: right;
+
+}
+
+.cont7 {
+  display: flex;
+  flex-direction: row;
+}
+
+.ttt {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.zzz {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.price {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h1 {
+  text-shadow: 1px 1px 2px#ff0000, 0 0 1em #ffffff, 0 0 0.2em #ff0000;
+  text-transform: uppercase;
+  font-size: 170px;
+  padding: 0;
+  margin-top: -50px;
+}
+
+h2 {
+  color: #35322cf0;
+}
+
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #35322cf0;
+}
+
+h4 {
+  font-size: 46px;
+  margin-top: 15px;
+  padding: 0px;
+  color: #35322cf0;
+}
+
+.ppp {
+  font-size: 20px;
+  color: #000000c0;
+}
+
+
+
+header {
+
+  color: #ffffff;
+  text-align: center;
+  padding: 0px 0;
+  background: url('./images/фон1.jpg');
+  height: 780px;
+  width: auto;
+
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav a {
+  color: #fffdfd;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.intro {
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: #2e333389;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.mail {
+  margin-left: 100px;
+}
+
+.menu-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #35322cf0;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.tea {
+  width: 200px;
+  height: 300px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 100%;
+  background-color: rgba(248, 246, 246, 0.525);
+  margin-right: 10px;
+}
+
+.menu1 {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.menu2 {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+#gallery {
+  background-color: rgba(248, 246, 246, 0);
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+  width: 800px;
+
+
+  border: 2px solid #000000;
+
+  border-radius: 0px;
+
+}
+
+#gallery ul#sets {
+  display: table;
+  list-style: none outside none;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+#gallery ul#sets li {
+  float: left;
+  margin-right: 10px;
+}
+
+#gallery ul#sets li a {
+  background-color: rgba(248, 246, 246, 0.525);
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  height: 26px;
+  line-height: 26px;
+  padding: 3px 20px;
+  text-decoration: none;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px 5px 5px 5px;
+  background: -moz-linear-gradient(#efef029e, #9ad0f0);
+  /* FF 3.6+ */
+  background: -ms-linear-gradient(#909ff3, #8b9af1);
+  /* IE10 */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0f491c), color-stop(100%, #3c59ff));
+  /* Safari 4+, Chrome 2+ */
+  background: -webkit-linear-gradient(#677cf5 #324ff5);
+  /* Safari 5.1+, Chrome 10+ */
+  background: -o-linear-gradient(#1a4fe0, #0059ff);
+  /* Opera 11.10 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f491c', endColorstr='#0a3513');
+  /* IE6 & IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f491c', endColorstr='#0a3513')";
+  /* IE8+ */
+  background: linear-gradient(#ff0000a4, #ff0000);
+  /* the standard */
+}
+
+#gallery ul#sets li a:hover {
+  background-color: #ffffff96;
+
+  background: -moz-linear-gradient(#006eff, #006eff);
+  /* FF 3.6+ */
+  background: -ms-linear-gradient(#006eff, #006eff);
+  /* IE10 */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #006eff), color-stop(100%, #006eff));
+  /* Safari 4+, Chrome 2+ */
+  background: -webkit-linear-gradient(#006eff, #006eff);
+  /* Safari 5.1+, Chrome 10+ */
+  background: -o-linear-gradient(#006eff, #006eff);
+  /* Opera 11.10 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#29af44', endColorstr='#0f6620');
+  /* IE6 & IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#29af44', endColorstr='#0f6620')";
+  /* IE8+ */
+  background: linear-gradient(#ff0000, #ff0101);
+  /* the standard */
+}
+
+#gallery #loading {
+  text-align: center;
+}
+
+#gallery #photo {
+  display: block;
+  margin: 10px auto;
+}
+
+#gallery ul#thumbs {
+  bottom: -25px;
+  left: 25%;
+  list-style: none outside none;
+  margin: 0 auto;
+  opacity: 0.5;
+  overflow: hidden;
+  position: absolute;
+  width: 400px;
+
+  -moz-transition: bottom 0.5s ease-in-out;
+  -ms-transition: bottom 0.5s ease-in-out;
+  -o-transition: bottom 0.5s ease-in-out;
+  -webkit-transition: bottom 0.5s ease-in-out;
+  transition: bottom 0.5s ease-in-out;
+}
+
+#gallery ul#thumbs:hover {
+  opacity: 1;
+  bottom: 10px;
+}
+
+#gallery ul#thumbs li {
+  border: 1px solid #888;
+  cursor: pointer;
+  float: left;
+  height: 50px;
+  width: 80px;
+}
+
+#gallery ul#thumbs li:hover {
+  border: 1px solid #fff;
+}
+
+#gallery ul#thumbs li img {
+  width: 100%;
+}
+
+.text-flicker {
+  animation: flicker 3s infinite;
+  /* Параметры анимации */
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+    /* Непрозрачный текст */
+  }
+
+  to {
+    opacity: 0;
+    /* Прозрачный текст */
+  }
+}
+
+
+
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0
+}
+
+.mySlides {
+  display: none
+}
+
+img {
+  height: 600px;
+}
+
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+/* Кнопки next & previous*/
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 1.0s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Измените положение "next button" */
+.next {
+  right: 0px;
+
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0px;
+
+  border-radius: 3px 0 0 3px;
+}
+
+/* Добавьте черный фоновый цвет с небольшой прозрачностью*/
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Подпись под изображением */
+.text {
+
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 240px 30px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Точки/маркеры/указатели */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #999999;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #111111;
+}
+
+/* Выцветание анимации */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* Для маленьких экранов увеличьте размер текста */
+@media only screen and (max-width: 300px) {
+
+  .prev,
+  .next,
+  .text {
+    font-size: 11px
+  }
+}
+
+
+
+
+.reviews {
+  background-color: #35322c2e;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border: 2px solid white;
+
+
+}
+
+.rew {
+
+  height: 70px;
+  background-color: #35322cf0;
+  width: 800px;
+  text-align: center;
+  color: #f8f6f6;
+  border: 2px solid #35322cf0;
+  border-radius: 5px;
+  margin-right: 19px;
+
+}
+
+.output {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 800px;
+  margin-left: 527px;
+
+}
+
+
+
+.overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  visibility: hidden;
+  /* фон затемнения */
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  position: fixed;
+  /* фиксированное поцизионирование */
+  cursor: default;
+  /* тип курсара */
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -ms-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/*** Формируем стили модального окна ***/
+.popup {
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 14px;
+  z-index: 10;
+  display: block;
+  visibility: hidden;
+  margin: 0 auto;
+  width: 90%;
+  min-width: 320px;
+  max-width: 600px;
+  /* фиксированное позиционирование, окно стабильно при прокрутке */
+  position: fixed;
+  padding: 15px;
+  border: 1px solid #383838;
+  /* скругление углов */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  /* внешняя тень блока */
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  -ms-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  -o-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
+  /* полная прозрачность окна, появление при клике */
+  opacity: 0;
+  /* эффект перехода (появление) */
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  -ms-transition: all ease .5s;
+  -o-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+/* активируем появление окна и затемнение фона */
+.overlay:target+.popup {
+  top: 20%;
+  /* положение окна от верха страницы при появлении */
+  visibility: visible;
+  opacity: 1;
+  /* убираем прозрачность */
+}
+
+/* формируем кнопку закрытия */
+.close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  background-color: rgba(61, 61, 61, 0.8);
+  -webkit-box-shadow: 0px 0px 10px #000;
+  -moz-box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 10px #000;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 20px;
+  /* задаём значения и эффект перехода при наведении */
+  -webkit-transition: all ease .8s;
+  -moz-transition: all ease .8s;
+  -ms-transition: all ease .8s;
+  -o-transition: all ease .8s;
+  transition: all ease .8s;
+}
+
+.close:before {
+  color: rgba(255, 255, 255, 0.9);
+  content: "X";
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+  font-size: 12px;
+}
+
+.close:hover {
+  background-color: rgba(252, 20, 0, 0.8);
+  /* крутим кнопку при наведении */
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+/* опционально при добавлении вложений */
+.popup p,
+.popup div {
+  margin-bottom: 10px;
+}
+
+.button {
+
+  font-size: 20px;
+  color: white;
+  width: 270px;
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  cursor: pointer;
+
+}
+
+.button-blue {
+  background: linear-gradient(90deg, rgba(255, 0, 0, 0.867) 1%, rgba(220, 95, 13, 0.8078081574426645) 31%, rgba(211, 141, 44, 1) 53%, rgba(255, 0, 0, 0.895) 99%);
+}
+
+.button:hover {
+  background-color: #f20b0b;
+  box-shadow: 0 0 10px 10px #ebecb0 inset;
+}
+
+.button:active {
+  background-color: #ff5100;
+  box-shadow: 0 0 0 0 #ffffff;
+}
